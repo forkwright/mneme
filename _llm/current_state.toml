@@ -1,0 +1,9 @@
+[meta]
+name = "mneme"
+repo = "forkwright/mneme"
+generated = false
+source_docs = ["README.md"]
+
+[state]
+summary = "Design-phase repo; promotion blocked on aletheia krites-overhaul and unified-storage phases. Authoritative state tracking lives in the fleet planning home (forkwright/kanon projects/mneme)."
+current_phase = "Phase 0: specification (blocked on aletheia prerequisites)"

@@ -1,0 +1,8 @@
+[meta]
+name = "mneme"
+repo = "forkwright/mneme"
+generated = false
+
+[architecture]
+summary = "Planned shape: Datalog engine core (promoted from aletheia krites) + unified Provenance + pluggable Extractor ingest + MCP surface + dual-engine incremental maintenance (semi-naive + differential dataflow)."
+status = "design phase; engine exists in aletheia, promotes here after overhaul"

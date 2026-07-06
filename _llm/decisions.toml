@@ -1,0 +1,28 @@
+[meta]
+name = "mneme"
+repo = "forkwright/mneme"
+generated = false
+
+[[decision]]
+id = "earn-then-promote"
+text = "Engine promotes from aletheia only after krites overhaul + unified storage complete and fleet standards are met."
+
+[[decision]]
+id = "prolog-syntax"
+text = "Datalog rules as Prolog-syntax text, not macros; operator-editable and agent-authorable."
+
+[[decision]]
+id = "dual-engine"
+text = "Semi-naive fixpoint for ad-hoc queries; differential dataflow for materialized views."
+
+[[decision]]
+id = "supersede-retraction"
+text = "Facts immutable and content-addressed; retraction is supersession with queryable history."
+
+[[decision]]
+id = "unified-provenance"
+text = "One Provenance type across all consumers' facts and annotations."
+
+[[decision]]
+id = "index-delegation"
+text = "Vector + FTS consumed from heurema as index kinds; mneme owns neither."

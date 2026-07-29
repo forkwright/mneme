@@ -1,3 +1,9 @@
+<!--
+scope: mneme repo conventions (design-phase deductive storage engine; promotion target for aletheia's krites)
+defers_to: kanon standards for universal engineering policy
+tightens: earn-then-promote gating on aletheia Phase 05g + 05b; planning lives in kanon projects/mneme, not here
+-->
+
 # CLAUDE.md - mneme
 
 ## At a glance

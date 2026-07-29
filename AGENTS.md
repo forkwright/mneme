@@ -1,5 +1,7 @@
 ---
 scope: mneme repo conventions (design-phase deductive storage engine)
+defers_to: kanon standards for universal engineering policy
+tightens: earn-then-promote: no engine code lands until the aletheia prerequisites complete
 ---
 
 # AGENTS.md - mneme

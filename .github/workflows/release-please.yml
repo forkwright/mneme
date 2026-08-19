@@ -23,4 +23,4 @@ permissions:
 
 jobs:
   call:
-    uses: forkwright/.github/.github/workflows/release-please.yml@main
+    uses: forkwright/.github/.github/workflows/release-please.yml@d74efb1d2d87ec86717dad5d42d468f6e3cf7994 # main

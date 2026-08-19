@@ -18,4 +18,4 @@ concurrency:
 
 jobs:
   call:
-    uses: forkwright/.github/.github/workflows/gate-attestation.yml@main
+    uses: forkwright/.github/.github/workflows/gate-attestation.yml@d74efb1d2d87ec86717dad5d42d468f6e3cf7994 # main

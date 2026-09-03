@@ -1,0 +1,52 @@
+[baseline]
+created = "2026-09-03"
+remove_after = "2026-12-02"
+reason = "kanon#3090 + kanon#3339: kanon 0.13.0's WORKFLOW/llm-schema-valid rejects this repo's _llm corpus (unchanged since the 2026-07-06 design-phase scaffold); corpus/schema reconciliation is kanon#3106's derive work. Also covers SHELL/unpinned-action + CI/release-yml-missing-attestation + YAML/missing-concurrency rows surfaced by the 2026-09-03 CI bootstrap (#13/#14/#15). Entries clear when the schema accepts derived _llm content or the corpus is regenerated."
+
+[[baseline.entry]]
+rule = "CI/release-yml-missing-attestation"
+file = ".github/workflows/release-pr-checks.yml"
+line = 1
+hash = "79a6f1355e8121b5c33427465016e094d89faefd3d0ab3d8868c920212494b63"
+
+[[baseline.entry]]
+rule = "SHELL/unpinned-action"
+file = ".github/workflows/gate-attestation.yml"
+line = 28
+hash = "a01dca0367d622b357ffa154c0195f1a1a903bb0ab9368e1b0413d20e07dccdc"
+
+[[baseline.entry]]
+rule = "SHELL/unpinned-action"
+file = ".github/workflows/release-please.yml"
+line = 30
+hash = "b920ef0146c20c0a459eec81dbfc800687651d30d4dca77a62bbec41623d4ca6"
+
+[[baseline.entry]]
+rule = "SHELL/unpinned-action"
+file = ".github/workflows/release-pr-checks.yml"
+line = 47
+hash = "6861738c0240eb05e1c20b66d65f3c882ac9dbfe422f26fefeb860514ce3f281"
+
+[[baseline.entry]]
+rule = "WORKFLOW/llm-schema-valid"
+file = "_llm/architecture.toml"
+line = 1
+hash = "7a904f466215e05431fc5a3a3c9add921ae01bb975e1120f240dcbd6a43179b3"
+
+[[baseline.entry]]
+rule = "WORKFLOW/llm-schema-valid"
+file = "_llm/current_state.toml"
+line = 1
+hash = "7a904f466215e05431fc5a3a3c9add921ae01bb975e1120f240dcbd6a43179b3"
+
+[[baseline.entry]]
+rule = "WORKFLOW/llm-schema-valid"
+file = "_llm/decisions.toml"
+line = 1
+hash = "7a904f466215e05431fc5a3a3c9add921ae01bb975e1120f240dcbd6a43179b3"
+
+[[baseline.entry]]
+rule = "YAML/missing-concurrency"
+file = ".github/workflows/release-pr-checks.yml"
+line = 1
+hash = "79a6f1355e8121b5c33427465016e094d89faefd3d0ab3d8868c920212494b63"
